@@ -1,1 +1,8 @@
-eureka.instance.client.serverUrl.defaultZone=http://localhost:8771/eureka/
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8771/eureka/
+  instance:
+    hostname: localhost
